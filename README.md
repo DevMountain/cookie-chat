@@ -51,8 +51,8 @@ The concepts this project will cover are
 ### Additional HTTP calls
 ####
 * The server also allows users to send and receive cookies from HTTP requests.
-* Add a new POST request method to your service called postCookie URL:"http://brackcarmony.com:8092/api/cookies" to share a new cookie with your fellow coders.
-* Add a new GET request method to your service  called getCookies URL:"http://brackcarmony.com:8092/api/cookies" to see what cookies have been shared.
+* Add a new POST request method to your service called postCookie URL:"http://practiceapi.devmounta.in/api/cookies" to share a new cookie with your fellow coders.
+* Add a new GET request method to your service  called getCookies URL:"http://practiceapi.devmounta.in/api/cookies" to see what cookies have been shared.
 
 
 ### Add Some Flavor
