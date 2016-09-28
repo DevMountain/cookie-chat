@@ -1,5 +1,8 @@
 angular.module('chatroom').filter('reverse', function(){
     return function(items) {
-    return items.slice().reverse();
+      if(!items){
+        return;
+      }
+      return items.slice().reverse();
   };
 });
