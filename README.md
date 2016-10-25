@@ -52,14 +52,14 @@ The concepts this project will cover are
 ####
 * The server also allows users to send and receive cookies from HTTP requests.
 * Add a new POST request method to your service called postCookie URL:"http://practiceapi.devmounta.in/api/cookies" to share a new cookie with your fellow coders.
-* Add a new GET request method to your service  called getCookies URL:"http://practiceapi.devmounta.in/api/cookies" to see what cookies have been shared.
+* Add a new GET request method to your service called getCookies URL:"http://practiceapi.devmounta.in/api/cookies" to see what cookies have been shared.
 
 
 ### Add Some Flavor
 ####
 * Right now it just shows the message. The object you get back from the server also has a createdAt property. Change the UI to show the message, and what time it was created at in normal, human readable formats.  The server also assigns each user a Cookie type.  Change the UI to display which type of cookie each message came from.
-* Make the Chatroom filterable by message
-* Be able to order the chatroom by date posted
+* Make the Chatroom filterable by message.
+* Be able to order the chatroom by date posted. Right now the default behavior placing new messages at the bottom, but we want the newest one at the top. Check out the 3rd example [here](http://www.w3schools.com/angular/ng_filter_orderby.asp).
 * Make the styling look more...professional.
 
 ## Contributions
