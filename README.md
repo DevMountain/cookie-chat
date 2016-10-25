@@ -41,7 +41,7 @@ The concepts this project will cover are
 ### Tie in your Controller
 ####
 * Now that your messageService is finished, we somehow need a way to tie the data we're getting from messageService.getData to our scope to show in our view. This sounds like the perfect use case for a controller.
-* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to messageService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope
+* Open up mainCtrl.js and follow the instructions. The bigger picture here is that we're going to utilize the methods that we added to messageService to do some of the 'heavy' lifting, then just add what we get back from those methods to the $scope.
 
 
 ### Review
