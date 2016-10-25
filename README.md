@@ -27,15 +27,15 @@ The concepts this project will cover are
 ### Clone and Dissect the Repo
 ####
 * Fork and clone this repository.
-* You should only touch mainCtrl.js and messageService.js, everything else is already set up for you
+* You should only touch mainCtrl.js and messageService.js, everything else is already set up for you.
 * Although very convenient, because other parts of the application are already set for you, you need to understand what that code is doing in order to work with it.
-* Go and check out the index.html page. You'll notice that in the message-container class there's an ng-repeat looping over messages. This means that somehow, you need to have 'messages' on the scope.  Each message should  have a 'message' property.
+* Go and check out the index.html page. You'll notice that in the message-container class there's an `ng-repeat` looping over messages. This means that somehow, you need to have 'messages' on the scope.  Each message should have a 'message' property.
 
 
 ### Build your messageService
 ####
 * In Angular we use 'services' to outsource some of our heavy lifting. That's exactly what we're going to do with this app.
-* Open up messageService.js and read the instructions. The bigger picture is that this service is going to have two methods, getMessages and postMessage. getMessages will get the chats from our backend, and postMessage will be able to post new messages to the backend.
+* Open up messageService.js and read the instructions. The bigger picture is that this service is going to have two methods, `getMessages` and `postMessage`. `getMessages` will get the chats from our backend, and `postMessage` will be able to post new messages to the backend.
 
 
 ### Tie in your Controller
